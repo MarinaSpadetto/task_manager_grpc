@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este é um projeto simples que utiliza [gRPC](https://grpc.io/) para gerenciar tarefas. Projetado para ajudar a consolidar o conhecimento em gRPC, do curso **Comunicação entre Sistemas**.
+Este é um projeto simples que utiliza [gRPC](https://grpc.io/) para gerenciar tarefas. Projetado para ajudar a consolidar o conhecimento em gRPC, do curso **Comunicação entre Sistemas** do Full Cycle.
 
 ## Funcionalidades
 
