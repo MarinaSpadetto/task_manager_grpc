@@ -1,0 +1,21 @@
+syntax = "proto3";
+package pb;
+
+service TaskService{
+  rpc CreateTask(CreateTaskRequest) returns (Task) {};
+}
+
+message Task{
+  string id = 1;
+  string title = 2;
+  bool completed = 3;
+}
+
+message TaskResponse{
+  Task task = 1;
+}
+
+message CreateTaskRequest {
+  string title = 1;
+  bool completed = 2;
+}
